@@ -1,0 +1,251 @@
+2025-12-29T14:19:32.444016Z  INFO engine::engine: funding seed finished total=368 completed=368 failed=0 elapsed_ms=4123
+2025-12-29T14:19:33.331016Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T14:19:33.337064Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-29T14:19:35.873029Z  INFO engine::engine: price window seed finished symbols=368 restored=736 fetched=0 failures=0 elapsed_ms=3428
+2025-12-29T14:19:35.873743Z  INFO engine::engine: spawning binance connector
+2025-12-29T14:19:36.380433Z  INFO strategy: strategy detected price window seed complete
+2025-12-29T14:19:38.343101Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T14:19:40.377597Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T14:19:43.357829Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T14:19:45.984437Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=97.54801291000001 spot_balance_usd=77.30400356000001 spot_available_usd=3.59036335 perp_balance_usd=8.70066059 positions=0
+2025-12-29T14:19:46.367124Z  INFO strategy: strategy bootstrap rebalance (no open positions detected)
+2025-12-29T14:19:46.367268Z  INFO strategy: strategy budgets for current rebalance spot_budget=3.59036335 perp_budget=8.70066059
+2025-12-29T14:19:46.367453Z  INFO strategy: strategy rebalance skipped: non-usdt equity ratio above limit ratio=0.75566521563089 non_usdt_equity=73.71364021 total_equity=97.54801291000001
+2025-12-29T14:28:37.470516Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T14:28:48.565321Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=97.54057929 spot_balance_usd=77.29656994 spot_available_usd=3.59036335 perp_balance_usd=8.65800919 positions=0
+2025-12-29T14:37:18.064232Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T14:37:30.725630Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=97.73443138 spot_balance_usd=77.49042203 spot_available_usd=3.59036335 perp_balance_usd=8.29705798 positions=0
+2025-12-29T14:46:01.886512Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T14:46:17.732221Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=97.71958518 spot_balance_usd=77.47557583 spot_available_usd=3.59036335 perp_balance_usd=8.4055455 positions=0
+2025-12-29T14:51:03.830819Z  INFO strategy: strategy budgets for current rebalance spot_budget=3.59036335 perp_budget=8.4055455
+2025-12-29T14:51:03.831028Z  INFO strategy: strategy rebalance skipped: non-usdt equity ratio above limit ratio=0.7560942091997531 non_usdt_equity=73.88521248 total_equity=97.71958518
+2025-12-29T14:54:40.429642Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T14:54:59.219112Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=96.2556085 spot_balance_usd=76.01159915 spot_available_usd=3.59036335 perp_balance_usd=10.18042196 positions=0
+2025-12-29T15:46:03.111190Z  WARN engine::engine: failed to load symbols from database err=Connection Error: pool timed out while waiting for an open connection
+
+Caused by:
+    0: pool timed out while waiting for an open connection
+    1: pool timed out while waiting for an open connection
+2025-12-29T15:46:03.111507Z  INFO engine::engine: []
+2025-12-29T15:46:03.111914Z  INFO engine::engine: engine starting with universe source="universe_file" count=3 symbols=["SOLUSDT", "BTCUSDT", "BNBUSDT"]
+2025-12-29T15:46:03.116260Z  INFO metrics: metrics server listening on 0.0.0.0:8000
+2025-12-29T15:46:13.512012Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:13.512461Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:18.531549Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:18.532062Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:23.549702Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:23.550653Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:28.569863Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:28.570537Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:33.592051Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:33.592708Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:38.491686Z  WARN store: store running without database: Connection Error: pool timed out while waiting for an open connection
+2025-12-29T15:46:38.495462Z  WARN engine::engine: unable to connect database for boot seed err=Connection Error: pool timed out while waiting for an open connection
+
+Caused by:
+    0: pool timed out while waiting for an open connection
+    1: pool timed out while waiting for an open connection
+2025-12-29T15:46:38.611084Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:38.611669Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:41.241540Z  INFO engine::engine: funding seed finished total=3 completed=3 failed=0 elapsed_ms=32749
+2025-12-29T15:46:43.631550Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:43.631961Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:48.648848Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:48.649727Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:53.669535Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:46:53.670361Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:58.687099Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:46:58.689985Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:47:03.705559Z  INFO strategy: strategy waiting for account snapshot
+2025-12-29T15:47:03.706461Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:47:08.722658Z  INFO strategy: strategy waiting for price window seed missing=6
+2025-12-29T15:47:08.724597Z  WARN strategy: strategy waiting for account snapshot timed out, assuming no existing positions
+2025-12-29T15:47:11.243712Z  WARN engine::engine: unable to connect database for price seed err=Connection Error: pool timed out while waiting for an open connection
+
+Caused by:
+    0: pool timed out while waiting for an open connection
+    1: pool timed out while waiting for an open connection
+2025-12-29T15:47:13.124523Z  INFO engine::engine: seeded price window symbol=SOLUSDT venue=Spot fetched=1 total=6
+2025-12-29T15:47:13.126527Z  INFO engine::engine: seeded price window symbol=SOLUSDT venue=Perp fetched=2 total=6
+2025-12-29T15:47:13.736853Z  INFO strategy: strategy waiting for price window seed missing=4
+2025-12-29T15:47:13.743487Z  INFO engine::engine: seeded price window symbol=BNBUSDT venue=Spot fetched=3 total=6
+2025-12-29T15:47:13.897513Z  INFO engine::engine: seeded price window symbol=BTCUSDT venue=Spot fetched=4 total=6
+2025-12-29T15:47:14.234257Z  INFO engine::engine: seeded price window symbol=BNBUSDT venue=Perp fetched=5 total=6
+2025-12-29T15:47:18.758422Z  INFO strategy: strategy waiting for price window seed missing=1
+2025-12-29T15:47:19.557438Z  INFO engine::engine: seeded price window symbol=BTCUSDT venue=Perp fetched=6 total=6
+2025-12-29T15:47:19.557585Z  INFO engine::engine: price window seed finished symbols=3 restored=0 fetched=6 failures=0 elapsed_ms=38315
+2025-12-29T15:47:19.557637Z  INFO engine::engine: spawning binance connector
+2025-12-29T15:47:19.762271Z  INFO strategy: strategy detected price window seed complete
+2025-12-29T15:47:19.762622Z  INFO strategy: strategy bootstrap rebalance (no open positions detected)
+2025-12-29T15:47:19.762877Z  INFO strategy: strategy rebalance skipped: account snapshot not ready
+2025-12-29T15:47:26.141272Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:47:34.853149Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.96515545999999 spot_balance_usd=75.72114610999999 spot_available_usd=3.59036335 perp_balance_usd=10.42916132 positions=0
+2025-12-29T15:47:50.274093Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:48:00.872701Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.90582538 spot_balance_usd=75.66181603 spot_available_usd=3.59036335 perp_balance_usd=10.41143246 positions=0
+2025-12-29T15:48:23.094674Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:48:32.414940Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.96516598 spot_balance_usd=75.72115663 spot_available_usd=3.59036335 perp_balance_usd=10.39775921 positions=0
+2025-12-29T15:48:44.091441Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:48:53.117177Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.96516072 spot_balance_usd=75.72115137 spot_available_usd=3.59036335 perp_balance_usd=10.44318346 positions=0
+2025-12-29T15:49:08.688317Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:49:16.298347Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.90582011999999 spot_balance_usd=75.66181076999999 spot_available_usd=3.59036335 perp_balance_usd=10.43744542 positions=0
+2025-12-29T15:49:26.415432Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:49:34.312136Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.90582620999999 spot_balance_usd=75.66181685999999 spot_available_usd=3.59036335 perp_balance_usd=10.43004245 positions=0
+2025-12-29T15:49:43.846163Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:49:56.440299Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.90582620999999 spot_balance_usd=75.66181685999999 spot_available_usd=3.59036335 perp_balance_usd=10.44380348 positions=0
+2025-12-29T15:50:12.358031Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:50:18.144766Z  INFO strategy: strategy budgets for current rebalance spot_budget=3.59036335 perp_budget=10.44380348
+2025-12-29T15:50:18.144981Z  INFO strategy: strategy rebalance skipped: non-usdt equity ratio above limit ratio=0.751481493441169 non_usdt_equity=72.07145351 total_equity=95.90582620999999
+2025-12-29T15:50:20.407061Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.90582094999999 spot_balance_usd=75.6618116 spot_available_usd=3.59036335 perp_balance_usd=10.47919288 positions=0
+2025-12-29T15:50:32.278367Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:50:40.165699Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84971711 spot_balance_usd=75.60570776 spot_available_usd=3.59036335 perp_balance_usd=10.55150336 positions=0
+2025-12-29T15:50:50.579765Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:51:01.550845Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84971711 spot_balance_usd=75.60570776 spot_available_usd=3.59036335 perp_balance_usd=10.54650614 positions=0
+2025-12-29T15:51:18.239804Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:51:27.530906Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84971711 spot_balance_usd=75.60570776 spot_available_usd=3.59036335 perp_balance_usd=10.49002802 positions=0
+2025-12-29T15:51:41.790904Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:51:49.598313Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84971711 spot_balance_usd=75.60570776 spot_available_usd=3.59036335 perp_balance_usd=10.52499277 positions=0
+2025-12-29T15:51:59.432296Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:52:07.133307Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84229318 spot_balance_usd=75.59828383 spot_available_usd=3.59036335 perp_balance_usd=10.53890946 positions=0
+2025-12-29T15:52:24.754104Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:52:35.040781Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84229318 spot_balance_usd=75.59828383 spot_available_usd=3.59036335 perp_balance_usd=10.51683783 positions=0
+2025-12-29T15:52:48.288240Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:52:57.396787Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.78295258 spot_balance_usd=75.53894323 spot_available_usd=3.59036335 perp_balance_usd=10.56318643 positions=0
+2025-12-29T15:53:07.630486Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:53:16.354497Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84229318 spot_balance_usd=75.59828383 spot_available_usd=3.59036335 perp_balance_usd=10.55174142 positions=0
+2025-12-29T15:53:33.236386Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:53:40.936230Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84229844 spot_balance_usd=75.59828909 spot_available_usd=3.59036335 perp_balance_usd=10.56176822 positions=0
+2025-12-29T15:53:50.695637Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:54:01.970060Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.83488585999999 spot_balance_usd=75.59087650999999 spot_available_usd=3.59036335 perp_balance_usd=10.57822655 positions=0
+2025-12-29T15:54:12.483085Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:54:20.164992Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.83488585999999 spot_balance_usd=75.59087650999999 spot_available_usd=3.59036335 perp_balance_usd=10.64333561 positions=0
+2025-12-29T15:54:36.934663Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:54:45.132325Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.83488059999999 spot_balance_usd=75.59087124999999 spot_available_usd=3.59036335 perp_balance_usd=10.67240443 positions=0
+2025-12-29T15:54:55.942477Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:55:04.376548Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.82005544 spot_balance_usd=75.57604609 spot_available_usd=3.59036335 perp_balance_usd=10.70258043 positions=0
+2025-12-29T15:55:17.077878Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:55:24.758703Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.72267292000001 spot_balance_usd=75.47866357000001 spot_available_usd=3.59036335 perp_balance_usd=10.69833501 positions=0
+2025-12-29T15:55:39.129761Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:55:49.649175Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.73009685 spot_balance_usd=75.4860875 spot_available_usd=3.59036335 perp_balance_usd=10.66286405 positions=0
+2025-12-29T15:55:59.409129Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:56:06.823482Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.76072618999999 spot_balance_usd=75.51671683999999 spot_available_usd=3.59036335 perp_balance_usd=10.61934319 positions=0
+2025-12-29T15:56:19.849889Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T15:56:27.264966Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.76072618999999 spot_balance_usd=75.51671683999999 spot_available_usd=3.59036335 perp_balance_usd=10.61534222 positions=0
+2025-12-29T17:26:23.755215Z  WARN connector::rest: failed to fetch depth snapshot err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("fapi.binance.com")), port: None, path: "/fapi/v1/depth", query: Some("symbol=SOLUSDT&limit=20"), fragment: None }, source: TimedOut }) symbol="SOLUSDT" venue=Perp
+2025-12-29T17:26:23.755448Z  WARN connector::binanceFeed: failed to fetch perp orderbook snapshot err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("fapi.binance.com")), port: None, path: "/fapi/v1/depth", query: Some("symbol=SOLUSDT&limit=20"), fragment: None }, source: TimedOut }) symbol=SOLUSDT
+2025-12-29T17:26:33.757255Z  WARN connector::rest: failed to fetch depth snapshot err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("fapi.binance.com")), port: None, path: "/fapi/v1/depth", query: Some("symbol=BTCUSDT&limit=20"), fragment: None }, source: TimedOut }) symbol="BTCUSDT" venue=Perp
+2025-12-29T17:26:33.757449Z  WARN connector::binanceFeed: failed to fetch perp orderbook snapshot err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("fapi.binance.com")), port: None, path: "/fapi/v1/depth", query: Some("symbol=BTCUSDT&limit=20"), fragment: None }, source: TimedOut }) symbol=BTCUSDT
+2025-12-29T17:26:43.759497Z  WARN connector::rest: failed to fetch depth snapshot err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("fapi.binance.com")), port: None, path: "/fapi/v1/depth", query: Some("symbol=BNBUSDT&limit=20"), fragment: None }, source: TimedOut }) symbol="BNBUSDT" venue=Perp
+2025-12-29T17:26:43.759667Z  WARN connector::binanceFeed: failed to fetch perp orderbook snapshot err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("fapi.binance.com")), port: None, path: "/fapi/v1/depth", query: Some("symbol=BNBUSDT&limit=20"), fragment: None }, source: TimedOut }) symbol=BNBUSDT
+2025-12-29T17:26:46.035808Z  WARN connector::rest: failed to fetch funding, using fallback err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("fapi.binance.com")), port: None, path: "/fapi/v1/fundingRate", query: Some("symbol=BNBUSDT&limit=256"), fragment: None }, source: hyper::Error(Io, Kind(UnexpectedEof)) }) symbol="BNBUSDT"
+2025-12-29T17:26:58.224886Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BTCUSDT"
+2025-12-29T17:27:14.899138Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BNBUSDT"
+2025-12-29T17:27:15.840275Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:27:27.851803Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.99832757 spot_balance_usd=75.74910274 spot_available_usd=3.59036335 perp_balance_usd=10.53125875 positions=0
+2025-12-29T17:27:39.600972Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="SOLUSDT"
+2025-12-29T17:27:52.832442Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BTCUSDT"
+2025-12-29T17:28:11.026231Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:28:21.569619Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.83364674 spot_balance_usd=75.58442191 spot_available_usd=3.59036335 perp_balance_usd=10.55265968 positions=0
+2025-12-29T17:28:48.410220Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BTCUSDT"
+2025-12-29T17:29:09.743765Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BNBUSDT"
+2025-12-29T17:29:11.613373Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:29:26.724086Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.93480063 spot_balance_usd=75.6855758 spot_available_usd=3.59036335 perp_balance_usd=10.58842288 positions=0
+2025-12-29T17:30:03.819758Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:30:25.073590Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.99091499 spot_balance_usd=75.74169015999999 spot_available_usd=3.59036335 perp_balance_usd=10.52428732 positions=0
+2025-12-29T17:30:36.513203Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="SOLUSDT"
+2025-12-29T17:30:53.771799Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BTCUSDT"
+2025-12-29T17:31:03.777740Z  WARN connector::rest: failed to fetch depth snapshot err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("api.binance.com")), port: None, path: "/api/v3/depth", query: Some("symbol=SOLUSDT&limit=20"), fragment: None }, source: TimedOut }) symbol="SOLUSDT" venue=Spot
+2025-12-29T17:31:03.777920Z  WARN connector::binanceFeed: failed to fetch spot orderbook snapshot err=Http(reqwest::Error { kind: Request, url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("api.binance.com")), port: None, path: "/api/v3/depth", query: Some("symbol=SOLUSDT&limit=20"), fragment: None }, source: TimedOut }) symbol=SOLUSDT
+2025-12-29T17:31:21.052229Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BNBUSDT"
+2025-12-29T17:31:21.922698Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:31:37.003898Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.88558085 spot_balance_usd=75.63635602 spot_available_usd=3.59036335 perp_balance_usd=10.5579227 positions=0
+2025-12-29T17:31:51.126857Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="SOLUSDT"
+2025-12-29T17:32:04.354645Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BTCUSDT"
+2025-12-29T17:32:26.172345Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:32:38.844672Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.99090973 spot_balance_usd=75.7416849 spot_available_usd=3.59036335 perp_balance_usd=10.54198435 positions=0
+2025-12-29T17:32:53.110316Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="SOLUSDT"
+2025-12-29T17:33:10.473040Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:33:22.282788Z  WARN connector::rest: failed to fetch spot account balances err=Http(reqwest::Error { kind: Body, source: TimedOut })
+2025-12-29T17:33:22.284067Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=20.24922483 spot_balance_usd=0.0 spot_available_usd=0.0 perp_balance_usd=10.55314292 positions=0
+2025-12-29T17:33:45.015820Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:34:00.306419Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.9909089 spot_balance_usd=75.74168406999999 spot_available_usd=3.59036335 perp_balance_usd=10.49536959 positions=0
+2025-12-29T17:34:11.785244Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BTCUSDT"
+2025-12-29T17:34:27.940769Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:34:44.479286Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.88558610999999 spot_balance_usd=75.63636127999999 spot_available_usd=3.59036335 perp_balance_usd=10.62361193 positions=0
+2025-12-29T17:34:56.001211Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="SOLUSDT"
+2025-12-29T17:35:12.993345Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BTCUSDT"
+2025-12-29T17:35:28.768475Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BNBUSDT"
+2025-12-29T17:35:29.704974Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:35:38.212476Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.93481115 spot_balance_usd=75.68558632 spot_available_usd=3.59036335 perp_balance_usd=10.62195018 positions=0
+2025-12-29T17:35:50.904805Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="SOLUSDT"
+2025-12-29T17:36:12.159405Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BTCUSDT"
+2025-12-29T17:36:29.459538Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:36:43.397200Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.94223507999999 spot_balance_usd=75.69301024999999 spot_available_usd=3.59036335 perp_balance_usd=10.62405706 positions=0
+2025-12-29T17:37:02.473445Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:37:19.522631Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.89353772999999 spot_balance_usd=75.64431289999999 spot_available_usd=3.59036335 perp_balance_usd=10.61937522 positions=0
+2025-12-29T17:37:43.926605Z  WARN connector::rest: failed to fetch klines, using fallback err=Http(reqwest::Error { kind: Body, source: TimedOut }) symbol="BNBUSDT"
+2025-12-29T17:37:52.012185Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:38:03.983718Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.72145040999999 spot_balance_usd=75.47222557999999 spot_available_usd=3.59036335 perp_balance_usd=10.68250056 positions=0
+2025-12-29T17:38:28.159173Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:38:34.096488Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.81936062 spot_balance_usd=75.57013579 spot_available_usd=3.59036335 perp_balance_usd=10.64771497 positions=0
+2025-12-29T17:38:40.815182Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:38:46.181222Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.81936062 spot_balance_usd=75.57013579 spot_available_usd=3.59036335 perp_balance_usd=10.65741186 positions=0
+2025-12-29T17:38:55.997359Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:39:01.474445Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.73626422 spot_balance_usd=75.48703938999999 spot_available_usd=3.59036335 perp_balance_usd=10.67801124 positions=0
+2025-12-29T17:39:10.306662Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:39:15.582763Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.73626422 spot_balance_usd=75.48703938999999 spot_available_usd=3.59036335 perp_balance_usd=10.66356775 positions=0
+2025-12-29T17:39:22.275981Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:39:30.363457Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.73627031 spot_balance_usd=75.48704547999999 spot_available_usd=3.59036335 perp_balance_usd=10.65915748 positions=0
+2025-12-29T17:39:37.382336Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:39:42.406287Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.82677403 spot_balance_usd=75.57754919999999 spot_available_usd=3.59036335 perp_balance_usd=10.59755477 positions=0
+2025-12-29T17:39:49.128266Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:39:54.507963Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.82677403 spot_balance_usd=75.57754919999999 spot_available_usd=3.59036335 perp_balance_usd=10.61287803 positions=0
+2025-12-29T17:40:03.766053Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:40:08.777847Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.81936062 spot_balance_usd=75.57013579 spot_available_usd=3.59036335 perp_balance_usd=10.66424605 positions=0
+2025-12-29T17:40:18.085092Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:40:23.054949Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.81936062 spot_balance_usd=75.57013579 spot_available_usd=3.59036335 perp_balance_usd=10.68937082 positions=0
+2025-12-29T17:40:32.683661Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:40:38.106569Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.7288569 spot_balance_usd=75.47963207 spot_available_usd=3.59036335 perp_balance_usd=10.67289618 positions=0
+2025-12-29T17:40:45.260170Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:40:50.759419Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.7288569 spot_balance_usd=75.47963207 spot_available_usd=3.59036335 perp_balance_usd=10.6476341 positions=0
+2025-12-29T17:40:57.455095Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:41:05.393450Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.73627557 spot_balance_usd=75.48705074 spot_available_usd=3.59036335 perp_balance_usd=10.64916506 positions=0
+2025-12-29T17:41:12.234781Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:41:17.395707Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.73627557 spot_balance_usd=75.48705074 spot_available_usd=3.59036335 perp_balance_usd=10.6576886 positions=0
+2025-12-29T17:41:26.601166Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:41:31.589238Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.83419713 spot_balance_usd=75.5849723 spot_available_usd=3.59036335 perp_balance_usd=10.5991361 positions=0
+2025-12-29T17:41:41.682296Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:41:47.284631Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.89353772999999 spot_balance_usd=75.64431289999999 spot_available_usd=3.59036335 perp_balance_usd=10.59812591 positions=0
+2025-12-29T17:41:54.660113Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:42:00.399665Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.79562143 spot_balance_usd=75.5463966 spot_available_usd=3.59036335 perp_balance_usd=10.60658487 positions=0
+2025-12-29T17:42:09.960426Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:42:15.164938Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.79562143 spot_balance_usd=75.5463966 spot_available_usd=3.59036335 perp_balance_usd=10.63384333 positions=0
+2025-12-29T17:42:23.465263Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:42:28.675450Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.79562143 spot_balance_usd=75.5463966 spot_available_usd=3.59036335 perp_balance_usd=10.64174293 positions=0
+2025-12-29T17:42:36.169910Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:42:44.699258Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84431269 spot_balance_usd=75.59508785999999 spot_available_usd=3.59036335 perp_balance_usd=10.58675146 positions=0
+2025-12-29T17:42:51.139654Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:42:56.534132Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.94222898999999 spot_balance_usd=75.69300415999999 spot_available_usd=3.59036335 perp_balance_usd=10.58198947 positions=0
+2025-12-29T17:43:03.419351Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:43:08.840166Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.94222898999999 spot_balance_usd=75.69300415999999 spot_available_usd=3.59036335 perp_balance_usd=10.56112541 positions=0
+2025-12-29T17:43:18.285609Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:43:24.181015Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.94222898999999 spot_balance_usd=75.69300415999999 spot_available_usd=3.59036335 perp_balance_usd=10.57912898 positions=0
+2025-12-29T17:43:33.394855Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:43:39.038552Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84431269 spot_balance_usd=75.59508785999999 spot_available_usd=3.59036335 perp_balance_usd=10.61452584 positions=0
+2025-12-29T17:43:48.281222Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:43:53.334699Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84431269 spot_balance_usd=75.59508785999999 spot_available_usd=3.59036335 perp_balance_usd=10.6201436 positions=0
+2025-12-29T17:43:59.778031Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:44:05.475360Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84431269 spot_balance_usd=75.59508785999999 spot_available_usd=3.59036335 perp_balance_usd=10.62378866 positions=0
+2025-12-29T17:44:11.809840Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:44:17.147115Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84431269 spot_balance_usd=75.59508785999999 spot_available_usd=3.59036335 perp_balance_usd=10.60274353 positions=0
+2025-12-29T17:44:26.163529Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:44:31.610925Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.94222898999999 spot_balance_usd=75.69300415999999 spot_available_usd=3.59036335 perp_balance_usd=10.61299064 positions=0
+2025-12-29T17:44:40.651903Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:44:45.933489Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.94222898999999 spot_balance_usd=75.69300415999999 spot_available_usd=3.59036335 perp_balance_usd=10.58229557 positions=0
+2025-12-29T17:44:55.190600Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:45:00.401377Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.94223507999999 spot_balance_usd=75.69301024999999 spot_available_usd=3.59036335 perp_balance_usd=10.5871701 positions=0
+2025-12-29T17:45:06.908581Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:45:12.700314Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.94223507999999 spot_balance_usd=75.69301024999999 spot_available_usd=3.59036335 perp_balance_usd=10.58625375 positions=0
+2025-12-29T17:45:19.320070Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:45:27.572494Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84431269 spot_balance_usd=75.59508785999999 spot_available_usd=3.59036335 perp_balance_usd=10.57074102 positions=0
+2025-12-29T17:45:35.165936Z  WARN connector::rest: failed to fetch position risk err=InvalidPayload("decode response")
+2025-12-29T17:45:40.710236Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=95.84431269 spot_balance_usd=75.59508785999999 spot_available_usd=3.59036335 perp_balance_usd=10.55975242 positions=0

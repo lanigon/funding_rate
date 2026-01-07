@@ -1,0 +1,491 @@
+2025-12-30T18:17:34.050269Z  INFO engine::engine: [
+    "0GUSDT",
+    "1000CATUSDT",
+    "1000CHEEMSUSDT",
+    "1000SATSUSDT",
+    "1INCHUSDT",
+    "1MBABYDOGEUSDT",
+    "2ZUSDT",
+    "A2ZUSDT",
+    "AAVEUSDT",
+    "ACEUSDT",
+    "ACHUSDT",
+    "ACTUSDT",
+    "ACXUSDT",
+    "ADAUSDT",
+    "AEVOUSDT",
+    "AGLDUSDT",
+    "AIUSDT",
+    "AIXBTUSDT",
+    "ALGOUSDT",
+    "ALICEUSDT",
+    "ALLOUSDT",
+    "ALPINEUSDT",
+    "ALTUSDT",
+    "ANIMEUSDT",
+    "ANKRUSDT",
+    "APEUSDT",
+    "API3USDT",
+    "APTUSDT",
+    "ARBUSDT",
+    "ARKMUSDT",
+    "ARKUSDT",
+    "ARPAUSDT",
+    "ARUSDT",
+    "ASRUSDT",
+    "ASTERUSDT",
+    "ASTRUSDT",
+    "ATAUSDT",
+    "ATOMUSDT",
+    "ATUSDT",
+    "AUCTIONUSDT",
+    "AUSDT",
+    "AVAUSDT",
+    "AVAXUSDT",
+    "AVNTUSDT",
+    "AWEUSDT",
+    "AXLUSDT",
+    "AXSUSDT",
+    "BABYUSDT",
+    "BANANAS31USDT",
+    "BANANAUSDT",
+    "BANDUSDT",
+    "BANKUSDT",
+    "BARDUSDT",
+    "BATUSDT",
+    "BBUSDT",
+    "BCHUSDT",
+    "BEAMXUSDT",
+    "BELUSDT",
+    "BERAUSDT",
+    "BICOUSDT",
+    "BIGTIMEUSDT",
+    "BIOUSDT",
+    "BLURUSDT",
+    "BMTUSDT",
+    "BNBUSDT",
+    "BNTUSDT",
+    "BOMEUSDT",
+    "BROCCOLI714USDT",
+    "BTCUSDT",
+    "C98USDT",
+    "CAKEUSDT",
+    "CATIUSDT",
+    "CELOUSDT",
+    "CELRUSDT",
+    "CETUSUSDT",
+    "CFXUSDT",
+    "CGPTUSDT",
+    "CHESSUSDT",
+    "CHRUSDT",
+    "CHZUSDT",
+    "CKBUSDT",
+    "COMPUSDT",
+    "COOKIEUSDT",
+    "COSUSDT",
+    "COTIUSDT",
+    "COWUSDT",
+    "CRVUSDT",
+    "CTKUSDT",
+    "CTSIUSDT",
+    "CUSDT",
+    "CVCUSDT",
+    "CVXUSDT",
+    "CYBERUSDT",
+    "DASHUSDT",
+    "DEGOUSDT",
+    "DENTUSDT",
+    "DEXEUSDT",
+    "DFUSDT",
+    "DIAUSDT",
+    "DOGEUSDT",
+    "DOGSUSDT",
+    "DOLOUSDT",
+    "DOTUSDT",
+    "DUSDT",
+    "DUSKUSDT",
+    "DYDXUSDT",
+    "DYMUSDT",
+    "EDENUSDT",
+    "EDUUSDT",
+    "EGLDUSDT",
+    "EIGENUSDT",
+    "ENAUSDT",
+    "ENJUSDT",
+    "ENSOUSDT",
+    "ENSUSDT",
+    "EPICUSDT",
+    "ERAUSDT",
+    "ETCUSDT",
+    "ETHFIUSDT",
+    "ETHUSDT",
+    "EULUSDT",
+    "FETUSDT",
+    "FFUSDT",
+    "FIDAUSDT",
+    "FILUSDT",
+    "FIOUSDT",
+    "FLOWUSDT",
+    "FLUXUSDT",
+    "FORMUSDT",
+    "FORTHUSDT",
+    "FUNUSDT",
+    "FUSDT",
+    "FXSUSDT",
+    "GALAUSDT",
+    "GASUSDT",
+    "GHSTUSDT",
+    "GIGGLEUSDT",
+    "GLMUSDT",
+    "GMTUSDT",
+    "GMXUSDT",
+    "GPSUSDT",
+    "GRTUSDT",
+    "GTCUSDT",
+    "GUNUSDT",
+    "GUSDT",
+    "HAEDALUSDT",
+    "HBARUSDT",
+    "HEIUSDT",
+    "HEMIUSDT",
+    "HFTUSDT",
+    "HIGHUSDT",
+    "HIVEUSDT",
+    "HMSTRUSDT",
+    "HOLOUSDT",
+    "HOMEUSDT",
+    "HOOKUSDT",
+    "HOTUSDT",
+    "HUMAUSDT",
+    "HYPERUSDT",
+    "ICPUSDT",
+    "ICXUSDT",
+    "IDUSDT",
+    "ILVUSDT",
+    "IMXUSDT",
+    "INITUSDT",
+    "INJUSDT",
+    "IOSTUSDT",
+    "IOTAUSDT",
+    "IOTXUSDT",
+    "IOUSDT",
+    "JASMYUSDT",
+    "JOEUSDT",
+    "JSTUSDT",
+    "JTOUSDT",
+    "JUPUSDT",
+    "KAIAUSDT",
+    "KAITOUSDT",
+    "KAVAUSDT",
+    "KERNELUSDT",
+    "KITEUSDT",
+    "KMNOUSDT",
+    "KNCUSDT",
+    "KSMUSDT",
+    "LAUSDT",
+    "LAYERUSDT",
+    "LDOUSDT",
+    "LINEAUSDT",
+    "LINKUSDT",
+    "LISTAUSDT",
+    "LPTUSDT",
+    "LQTYUSDT",
+    "LRCUSDT",
+    "LSKUSDT",
+    "LTCUSDT",
+    "LUMIAUSDT",
+    "MAGICUSDT",
+    "MANAUSDT",
+    "MANTAUSDT",
+    "MASKUSDT",
+    "MAVUSDT",
+    "MBOXUSDT",
+    "MEMEUSDT",
+    "METISUSDT",
+    "METUSDT",
+    "MEUSDT",
+    "MINAUSDT",
+    "MIRAUSDT",
+    "MITOUSDT",
+    "MLNUSDT",
+    "MMTUSDT",
+    "MORPHOUSDT",
+    "MOVEUSDT",
+    "MOVRUSDT",
+    "MTLUSDT",
+    "MUBARAKUSDT",
+    "NEARUSDT",
+    "NEIROUSDT",
+    "NEOUSDT",
+    "NEWTUSDT",
+    "NFPUSDT",
+    "NILUSDT",
+    "NKNUSDT",
+    "NMRUSDT",
+    "NOMUSDT",
+    "NOTUSDT",
+    "NTRNUSDT",
+    "NXPCUSDT",
+    "OGNUSDT",
+    "OGUSDT",
+    "OMUSDT",
+    "ONDOUSDT",
+    "ONEUSDT",
+    "ONGUSDT",
+    "ONTUSDT",
+    "OPENUSDT",
+    "OPUSDT",
+    "ORCAUSDT",
+    "ORDIUSDT",
+    "OXTUSDT",
+    "PARTIUSDT",
+    "PAXGUSDT",
+    "PENDLEUSDT",
+    "PENGUUSDT",
+    "PEOPLEUSDT",
+    "PHAUSDT",
+    "PHBUSDT",
+    "PIXELUSDT",
+    "PLUMEUSDT",
+    "PNUTUSDT",
+    "POLUSDT",
+    "POLYXUSDT",
+    "PORTALUSDT",
+    "POWRUSDT",
+    "PROMUSDT",
+    "PROVEUSDT",
+    "PUMPUSDT",
+    "PUNDIXUSDT",
+    "PYTHUSDT",
+    "QNTUSDT",
+    "QTUMUSDT",
+    "RAREUSDT",
+    "RDNTUSDT",
+    "REDUSDT",
+    "RENDERUSDT",
+    "RESOLVUSDT",
+    "REZUSDT",
+    "RIFUSDT",
+    "RLCUSDT",
+    "RONINUSDT",
+    "ROSEUSDT",
+    "RPLUSDT",
+    "RSRUSDT",
+    "RUNEUSDT",
+    "RVNUSDT",
+    "SAGAUSDT",
+    "SAHARAUSDT",
+    "SANDUSDT",
+    "SANTOSUSDT",
+    "SAPIENUSDT",
+    "SCRTUSDT",
+    "SCRUSDT",
+    "SEIUSDT",
+    "SFPUSDT",
+    "SHELLUSDT",
+    "SIGNUSDT",
+    "SKLUSDT",
+    "SKYUSDT",
+    "SLPUSDT",
+    "SNXUSDT",
+    "SOLUSDT",
+    "SOLVUSDT",
+    "SOMIUSDT",
+    "SOPHUSDT",
+    "SPELLUSDT",
+    "SPKUSDT",
+    "SSVUSDT",
+    "STEEMUSDT",
+    "STGUSDT",
+    "STORJUSDT",
+    "STOUSDT",
+    "STRKUSDT",
+    "STXUSDT",
+    "SUIUSDT",
+    "SUNUSDT",
+    "SUPERUSDT",
+    "SUSDT",
+    "SUSHIUSDT",
+    "SXTUSDT",
+    "SYNUSDT",
+    "SYRUPUSDT",
+    "SYSUSDT",
+    "TAOUSDT",
+    "THETAUSDT",
+    "THEUSDT",
+    "TIAUSDT",
+    "TLMUSDT",
+    "TNSRUSDT",
+    "TONUSDT",
+    "TOWNSUSDT",
+    "TRBUSDT",
+    "TREEUSDT",
+    "TRUMPUSDT",
+    "TRUUSDT",
+    "TRXUSDT",
+    "TSTUSDT",
+    "TURBOUSDT",
+    "TURTLEUSDT",
+    "TUSDT",
+    "TUTUSDT",
+    "TWTUSDT",
+    "UMAUSDT",
+    "UNIUSDT",
+    "USDCUSDT",
+    "USTCUSDT",
+    "USUALUSDT",
+    "VANAUSDT",
+    "VANRYUSDT",
+    "VELODROMEUSDT",
+    "VETUSDT",
+    "VICUSDT",
+    "VIRTUALUSDT",
+    "VTHOUSDT",
+    "WALUSDT",
+    "WAXPUSDT",
+    "WCTUSDT",
+    "WIFUSDT",
+    "WLDUSDT",
+    "WLFIUSDT",
+    "WOOUSDT",
+    "WUSDT",
+    "XAIUSDT",
+    "XLMUSDT",
+    "XPLUSDT",
+    "XRPUSDT",
+    "XTZUSDT",
+    "XVGUSDT",
+    "XVSUSDT",
+    "YBUSDT",
+    "YFIUSDT",
+    "YGGUSDT",
+    "ZBTUSDT",
+    "ZECUSDT",
+    "ZENUSDT",
+    "ZILUSDT",
+    "ZKCUSDT",
+    "ZKUSDT",
+    "ZROUSDT",
+    "ZRXUSDT",
+]
+2025-12-30T18:17:34.054548Z  INFO engine::engine: engine starting with universe source="database" count=368 symbols=["0GUSDT", "1000CATUSDT", "1000CHEEMSUSDT", "1000SATSUSDT", "1INCHUSDT", "1MBABYDOGEUSDT", "2ZUSDT", "A2ZUSDT", "AAVEUSDT", "ACEUSDT", "ACHUSDT", "ACTUSDT", "ACXUSDT", "ADAUSDT", "AEVOUSDT", "AGLDUSDT", "AIUSDT", "AIXBTUSDT", "ALGOUSDT", "ALICEUSDT", "ALLOUSDT", "ALPINEUSDT", "ALTUSDT", "ANIMEUSDT", "ANKRUSDT", "APEUSDT", "API3USDT", "APTUSDT", "ARBUSDT", "ARKMUSDT", "ARKUSDT", "ARPAUSDT", "ARUSDT", "ASRUSDT", "ASTERUSDT", "ASTRUSDT", "ATAUSDT", "ATOMUSDT", "ATUSDT", "AUCTIONUSDT", "AUSDT", "AVAUSDT", "AVAXUSDT", "AVNTUSDT", "AWEUSDT", "AXLUSDT", "AXSUSDT", "BABYUSDT", "BANANAS31USDT", "BANANAUSDT", "BANDUSDT", "BANKUSDT", "BARDUSDT", "BATUSDT", "BBUSDT", "BCHUSDT", "BEAMXUSDT", "BELUSDT", "BERAUSDT", "BICOUSDT", "BIGTIMEUSDT", "BIOUSDT", "BLURUSDT", "BMTUSDT", "BNBUSDT", "BNTUSDT", "BOMEUSDT", "BROCCOLI714USDT", "BTCUSDT", "C98USDT", "CAKEUSDT", "CATIUSDT", "CELOUSDT", "CELRUSDT", "CETUSUSDT", "CFXUSDT", "CGPTUSDT", "CHESSUSDT", "CHRUSDT", "CHZUSDT", "CKBUSDT", "COMPUSDT", "COOKIEUSDT", "COSUSDT", "COTIUSDT", "COWUSDT", "CRVUSDT", "CTKUSDT", "CTSIUSDT", "CUSDT", "CVCUSDT", "CVXUSDT", "CYBERUSDT", "DASHUSDT", "DEGOUSDT", "DENTUSDT", "DEXEUSDT", "DFUSDT", "DIAUSDT", "DOGEUSDT", "DOGSUSDT", "DOLOUSDT", "DOTUSDT", "DUSDT", "DUSKUSDT", "DYDXUSDT", "DYMUSDT", "EDENUSDT", "EDUUSDT", "EGLDUSDT", "EIGENUSDT", "ENAUSDT", "ENJUSDT", "ENSOUSDT", "ENSUSDT", "EPICUSDT", "ERAUSDT", "ETCUSDT", "ETHFIUSDT", "ETHUSDT", "EULUSDT", "FETUSDT", "FFUSDT", "FIDAUSDT", "FILUSDT", "FIOUSDT", "FLOWUSDT", "FLUXUSDT", "FORMUSDT", "FORTHUSDT", "FUNUSDT", "FUSDT", "FXSUSDT", "GALAUSDT", "GASUSDT", "GHSTUSDT", "GIGGLEUSDT", "GLMUSDT", "GMTUSDT", "GMXUSDT", "GPSUSDT", "GRTUSDT", "GTCUSDT", "GUNUSDT", "GUSDT", "HAEDALUSDT", "HBARUSDT", "HEIUSDT", "HEMIUSDT", "HFTUSDT", "HIGHUSDT", "HIVEUSDT", "HMSTRUSDT", "HOLOUSDT", "HOMEUSDT", "HOOKUSDT", "HOTUSDT", "HUMAUSDT", "HYPERUSDT", "ICPUSDT", "ICXUSDT", "IDUSDT", "ILVUSDT", "IMXUSDT", "INITUSDT", "INJUSDT", "IOSTUSDT", "IOTAUSDT", "IOTXUSDT", "IOUSDT", "JASMYUSDT", "JOEUSDT", "JSTUSDT", "JTOUSDT", "JUPUSDT", "KAIAUSDT", "KAITOUSDT", "KAVAUSDT", "KERNELUSDT", "KITEUSDT", "KMNOUSDT", "KNCUSDT", "KSMUSDT", "LAUSDT", "LAYERUSDT", "LDOUSDT", "LINEAUSDT", "LINKUSDT", "LISTAUSDT", "LPTUSDT", "LQTYUSDT", "LRCUSDT", "LSKUSDT", "LTCUSDT", "LUMIAUSDT", "MAGICUSDT", "MANAUSDT", "MANTAUSDT", "MASKUSDT", "MAVUSDT", "MBOXUSDT", "MEMEUSDT", "METISUSDT", "METUSDT", "MEUSDT", "MINAUSDT", "MIRAUSDT", "MITOUSDT", "MLNUSDT", "MMTUSDT", "MORPHOUSDT", "MOVEUSDT", "MOVRUSDT", "MTLUSDT", "MUBARAKUSDT", "NEARUSDT", "NEIROUSDT", "NEOUSDT", "NEWTUSDT", "NFPUSDT", "NILUSDT", "NKNUSDT", "NMRUSDT", "NOMUSDT", "NOTUSDT", "NTRNUSDT", "NXPCUSDT", "OGNUSDT", "OGUSDT", "OMUSDT", "ONDOUSDT", "ONEUSDT", "ONGUSDT", "ONTUSDT", "OPENUSDT", "OPUSDT", "ORCAUSDT", "ORDIUSDT", "OXTUSDT", "PARTIUSDT", "PAXGUSDT", "PENDLEUSDT", "PENGUUSDT", "PEOPLEUSDT", "PHAUSDT", "PHBUSDT", "PIXELUSDT", "PLUMEUSDT", "PNUTUSDT", "POLUSDT", "POLYXUSDT", "PORTALUSDT", "POWRUSDT", "PROMUSDT", "PROVEUSDT", "PUMPUSDT", "PUNDIXUSDT", "PYTHUSDT", "QNTUSDT", "QTUMUSDT", "RAREUSDT", "RDNTUSDT", "REDUSDT", "RENDERUSDT", "RESOLVUSDT", "REZUSDT", "RIFUSDT", "RLCUSDT", "RONINUSDT", "ROSEUSDT", "RPLUSDT", "RSRUSDT", "RUNEUSDT", "RVNUSDT", "SAGAUSDT", "SAHARAUSDT", "SANDUSDT", "SANTOSUSDT", "SAPIENUSDT", "SCRTUSDT", "SCRUSDT", "SEIUSDT", "SFPUSDT", "SHELLUSDT", "SIGNUSDT", "SKLUSDT", "SKYUSDT", "SLPUSDT", "SNXUSDT", "SOLUSDT", "SOLVUSDT", "SOMIUSDT", "SOPHUSDT", "SPELLUSDT", "SPKUSDT", "SSVUSDT", "STEEMUSDT", "STGUSDT", "STORJUSDT", "STOUSDT", "STRKUSDT", "STXUSDT", "SUIUSDT", "SUNUSDT", "SUPERUSDT", "SUSDT", "SUSHIUSDT", "SXTUSDT", "SYNUSDT", "SYRUPUSDT", "SYSUSDT", "TAOUSDT", "THETAUSDT", "THEUSDT", "TIAUSDT", "TLMUSDT", "TNSRUSDT", "TONUSDT", "TOWNSUSDT", "TRBUSDT", "TREEUSDT", "TRUMPUSDT", "TRUUSDT", "TRXUSDT", "TSTUSDT", "TURBOUSDT", "TURTLEUSDT", "TUSDT", "TUTUSDT", "TWTUSDT", "UMAUSDT", "UNIUSDT", "USDCUSDT", "USTCUSDT", "USUALUSDT", "VANAUSDT", "VANRYUSDT", "VELODROMEUSDT", "VETUSDT", "VICUSDT", "VIRTUALUSDT", "VTHOUSDT", "WALUSDT", "WAXPUSDT", "WCTUSDT", "WIFUSDT", "WLDUSDT", "WLFIUSDT", "WOOUSDT", "WUSDT", "XAIUSDT", "XLMUSDT", "XPLUSDT", "XRPUSDT", "XTZUSDT", "XVGUSDT", "XVSUSDT", "YBUSDT", "YFIUSDT", "YGGUSDT", "ZBTUSDT", "ZECUSDT", "ZENUSDT", "ZILUSDT", "ZKCUSDT", "ZKUSDT", "ZROUSDT", "ZRXUSDT"]
+2025-12-30T18:17:34.062942Z  INFO engine::engine: seeding counters from myTrades symbols=368 venues=2 lookback_ms=259200000
+2025-12-30T18:17:34.077817Z  INFO metrics: metrics server listening on 0.0.0.0:8000
+2025-12-30T18:17:34.169264Z  INFO store: store connected to postgres
+2025-12-30T18:17:39.094244Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:17:39.096205Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:17:45.682216Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:17:45.686705Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:17:50.696937Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:17:50.704006Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:17:55.709506Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:17:55.722682Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:00.724204Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:18:00.741486Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:05.737432Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:18:05.760680Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:10.753772Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:18:10.779824Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:17.331647Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:18:17.360482Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:22.346277Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:18:22.378999Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:22.760452Z  INFO engine::engine: trade seed progress processed=25 total=368 orders=0 fee_usdt=0.0
+2025-12-30T18:18:27.361101Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:18:27.397285Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:32.375279Z  INFO strategy: strategy waiting for account snapshot
+2025-12-30T18:18:32.415455Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:37.388860Z  WARN strategy: strategy waiting for account snapshot timed out, assuming no existing positions
+2025-12-30T18:18:37.432002Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:42.451222Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:49.022234Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:54.042239Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:18:59.061078Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:04.081597Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:06.752063Z  INFO engine::engine: trade seed progress processed=50 total=368 orders=0 fee_usdt=0.0
+2025-12-30T18:19:09.101292Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:14.119590Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:20.682944Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:25.701224Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:30.721523Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:35.740739Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:40.759474Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:45.778018Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:52.344298Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:19:52.703597Z  INFO engine::engine: trade seed progress processed=75 total=368 orders=0 fee_usdt=0.0
+2025-12-30T18:19:57.362425Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:02.381166Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:07.399447Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:12.418093Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:17.437937Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:24.014794Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:29.034217Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:34.055478Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:36.768792Z  INFO engine::engine: trade seed progress processed=100 total=368 orders=0 fee_usdt=0.0
+2025-12-30T18:20:39.074070Z  INFO strategy: strategy waiting for price window seed missing=736
+2025-12-30T18:20:43.589451Z  WARN strategy: strategy waiting for price windows timed out, continuing bootstrap missing=736
+2025-12-30T18:20:43.589719Z  INFO strategy: strategy bootstrap rebalance (no open positions detected)
+2025-12-30T18:20:43.589801Z  INFO strategy: strategy rebalance skipped: account snapshot not ready
+2025-12-30T18:20:55.185638Z  INFO engine::engine: funding seed finished total=368 completed=368 failed=0 elapsed_ms=190225
+2025-12-30T18:21:23.895026Z  INFO engine::engine: trade seed progress processed=125 total=368 orders=0 fee_usdt=0.0
+2025-12-30T18:22:12.896305Z  INFO engine::engine: trade seed progress processed=150 total=368 orders=0 fee_usdt=0.0
+2025-12-30T18:22:19.923545Z  INFO engine::engine: seeded myTrades symbol="HOLOUSDT" venue=Spot trades=1 orders=1 fee_usdt=0.03280202
+2025-12-30T18:22:20.930811Z  INFO engine::engine: seeded myTrades symbol="HOLOUSDT" venue=Perp trades=2 orders=1 fee_usdt=0.017933769999999998
+2025-12-30T18:23:02.638777Z  INFO engine::engine: trade seed progress processed=175 total=368 orders=2 fee_usdt=0.05073579
+2025-12-30T18:23:41.316543Z  INFO engine::engine: seeded myTrades symbol="LUMIAUSDT" venue=Spot trades=2 orders=2 fee_usdt=0.04119633
+2025-12-30T18:23:42.295463Z  INFO engine::engine: seeded myTrades symbol="LUMIAUSDT" venue=Perp trades=2 orders=2 fee_usdt=0.01983329
+2025-12-30T18:23:51.390100Z  INFO engine::engine: trade seed progress processed=200 total=368 orders=6 fee_usdt=0.11176541000000001
+2025-12-30T18:24:05.840673Z  INFO engine::engine: seeded myTrades symbol="MIRAUSDT" venue=Spot trades=3 orders=2 fee_usdt=0.15710622000000002
+2025-12-30T18:24:06.781177Z  INFO engine::engine: seeded myTrades symbol="MIRAUSDT" venue=Perp trades=3 orders=2 fee_usdt=0.07933380000000001
+2025-12-30T18:24:13.482802Z  INFO engine::engine: seeded myTrades symbol="MORPHOUSDT" venue=Spot trades=2 orders=2 fee_usdt=0.034423579999999995
+2025-12-30T18:24:14.507152Z  INFO engine::engine: seeded myTrades symbol="MORPHOUSDT" venue=Perp trades=3 orders=2 fee_usdt=0.01749299
+2025-12-30T18:24:31.145773Z  INFO engine::engine: price window seed finished symbols=368 restored=0 fetched=736 failures=0 elapsed_ms=206723
+2025-12-30T18:24:31.145887Z  INFO engine::engine: spawning binance connector
+2025-12-30T18:24:36.017805Z  INFO engine::engine: seeded myTrades symbol="NKNUSDT" venue=Spot trades=3 orders=3 fee_usdt=0.022109999999999998
+2025-12-30T18:24:36.948338Z  INFO engine::engine: seeded myTrades symbol="NKNUSDT" venue=Perp trades=2 orders=2 fee_usdt=0.00885137
+2025-12-30T18:24:39.652417Z  INFO connector::binanceFeed: fetched funding income count=26 total_amount=-0.05203964000000001 start_ts=1767009601000 end_ts=1767110401000
+2025-12-30T18:24:42.404916Z  INFO engine::engine: trade seed progress processed=225 total=368 orders=19 fee_usdt=0.4310833700000001
+2025-12-30T18:24:48.797900Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.67736023999998 spot_balance_usd=76.56682738999999 spot_available_usd=3.59036335 perp_balance_usd=22.11053285 perp_available_usd=9.58931655 positions=4
+2025-12-30T18:25:00.426763Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66597053999999 spot_balance_usd=76.56682212999999 spot_available_usd=3.59036335 perp_balance_usd=22.09914841 perp_available_usd=9.58608331 positions=4
+2025-12-30T18:25:13.721012Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.61560109999999 spot_balance_usd=76.51071828999999 spot_available_usd=3.59036335 perp_balance_usd=22.10488281 perp_available_usd=9.59419192 positions=4
+2025-12-30T18:25:24.739438Z  INFO engine::engine: trade seed progress processed=250 total=368 orders=19 fee_usdt=0.4310833700000001
+2025-12-30T18:25:25.739504Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66964168999999 spot_balance_usd=76.51812560999998 spot_available_usd=3.59036335 perp_balance_usd=22.15151608 perp_available_usd=9.64376135 positions=4
+2025-12-30T18:25:38.975728Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66305048999999 spot_balance_usd=76.50330044999998 spot_available_usd=3.59036335 perp_balance_usd=22.15975004 perp_available_usd=9.65801754 positions=4
+2025-12-30T18:25:50.608319Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66835050999998 spot_balance_usd=76.48847528999998 spot_available_usd=3.59036335 perp_balance_usd=22.17987522 perp_available_usd=9.68109537 positions=4
+2025-12-30T18:26:01.982433Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.69283707999998 spot_balance_usd=76.51071302999998 spot_available_usd=3.59036335 perp_balance_usd=22.18212405 perp_available_usd=9.68236853 positions=4
+2025-12-30T18:26:07.130683Z  INFO engine::engine: trade seed progress processed=275 total=368 orders=19 fee_usdt=0.4310833700000001
+2025-12-30T18:26:16.180994Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.68350854999997 spot_balance_usd=76.51071302999998 spot_available_usd=3.59036335 perp_balance_usd=22.17279552 perp_available_usd=9.67302289 positions=4
+2025-12-30T18:26:27.014464Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.68327617999998 spot_balance_usd=76.51071302999998 spot_available_usd=3.59036335 perp_balance_usd=22.17256315 perp_available_usd=9.66833112 positions=4
+2025-12-30T18:26:38.758463Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66899160999999 spot_balance_usd=76.49588786999999 spot_available_usd=3.59036335 perp_balance_usd=22.17310374 perp_available_usd=9.66801337 positions=4
+2025-12-30T18:26:51.451957Z  INFO engine::engine: trade seed progress processed=300 total=368 orders=19 fee_usdt=0.4310833700000001
+2025-12-30T18:26:51.920672Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.61283351999998 spot_balance_usd=76.44395984999998 spot_available_usd=3.59036335 perp_balance_usd=22.16887367 perp_available_usd=9.6629246 positions=4
+2025-12-30T18:26:56.333685Z  INFO engine::engine: seeded myTrades symbol="SUIUSDT" venue=Perp trades=1 orders=1 fee_usdt=0.00298158
+2025-12-30T18:27:02.969376Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66185496999998 spot_balance_usd=76.46619758999998 spot_available_usd=3.59036335 perp_balance_usd=22.19565738 perp_available_usd=9.66072226 positions=4
+2025-12-30T18:27:17.578367Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.62227663999998 spot_balance_usd=76.46619758999998 spot_available_usd=3.59036335 perp_balance_usd=22.15607905 perp_available_usd=9.63570856 positions=4
+2025-12-30T18:27:30.075956Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66641689999999 spot_balance_usd=76.52554344999999 spot_available_usd=3.59036335 perp_balance_usd=22.14087345 perp_available_usd=9.63168168 positions=4
+2025-12-30T18:27:38.114924Z  INFO engine::engine: trade seed progress processed=325 total=368 orders=20 fee_usdt=0.43406495000000006
+2025-12-30T18:27:41.770529Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66688875999999 spot_balance_usd=76.52553818999999 spot_available_usd=3.59036335 perp_balance_usd=22.14135057 perp_available_usd=9.63819822 positions=4
+2025-12-30T18:27:55.723385Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.66703390999999 spot_balance_usd=76.52554344999999 spot_available_usd=3.59036335 perp_balance_usd=22.14149046 perp_available_usd=9.63995753 positions=4
+2025-12-30T18:28:00.833804Z  INFO engine::engine: seeded myTrades symbol="VANRYUSDT" venue=Spot trades=3 orders=3 fee_usdt=0.020185
+2025-12-30T18:28:01.722539Z  INFO engine::engine: seeded myTrades symbol="VANRYUSDT" venue=Perp trades=3 orders=3 fee_usdt=0.01033153
+2025-12-30T18:28:07.618346Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.68570938999999 spot_balance_usd=76.52554344999999 spot_available_usd=3.59036335 perp_balance_usd=22.16016594 perp_available_usd=9.65930026 positions=4
+2025-12-30T18:28:15.782532Z  INFO engine::engine: seeded myTrades symbol="WCTUSDT" venue=Spot trades=1 orders=1 fee_usdt=0.006982220000000001
+2025-12-30T18:28:17.519305Z  INFO engine::engine: seeded myTrades symbol="WCTUSDT" venue=Perp trades=1 orders=1 fee_usdt=0.00270285
+2025-12-30T18:28:21.125294Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.70168718 spot_balance_usd=76.53295076999999 spot_available_usd=3.59036335 perp_balance_usd=22.16873641 perp_available_usd=9.66916274 positions=4
+2025-12-30T18:28:26.022517Z  INFO engine::engine: trade seed progress processed=350 total=368 orders=28 fee_usdt=0.47426655
+2025-12-30T18:28:31.883678Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.70431243999998 spot_balance_usd=76.53295602999998 spot_available_usd=3.59036335 perp_balance_usd=22.17135641 perp_available_usd=9.6663788 positions=4
+2025-12-30T18:28:36.744480Z  INFO engine::engine: seeded myTrades symbol="XVSUSDT" venue=Spot trades=1 orders=1 fee_usdt=0.0260172
+2025-12-30T18:28:37.738750Z  INFO engine::engine: seeded myTrades symbol="XVSUSDT" venue=Perp trades=1 orders=1 fee_usdt=0.012921
+2025-12-30T18:28:43.152465Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.69216699999998 spot_balance_usd=76.53295076999999 spot_available_usd=3.59036335 perp_balance_usd=22.15921623 perp_available_usd=9.65357802 positions=4
+2025-12-30T18:28:56.038598Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.69022693999999 spot_balance_usd=76.54036860999999 spot_available_usd=3.59036335 perp_balance_usd=22.14985833 perp_available_usd=9.64384264 positions=4
+2025-12-30T18:28:57.680017Z  INFO engine::engine: trade seed progress processed=368 total=368 orders=30 fee_usdt=0.51320475
+2025-12-30T18:28:57.680139Z  INFO engine::engine: seeded counters from myTrades order_count_total=30 fee_cum=0.51320475 trade_count=34
+2025-12-30T18:29:08.059708Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equi   2025-12-31T02:19:01.555875Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.58199366 spot_balance_usd=75.62524143 spot_available_usd=3.59036335 perp_balance_usd=22.95675223 perp_available_usd=10.59437582 positions=4
+2025-12-31T02:19:14.250492Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.67816373 spot_balance_usd=75.7157565 spot_available_usd=3.59036335 perp_balance_usd=22.96240723 perp_available_usd=10.59993223 positions=4
+2025-12-31T02:19:26.947710Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.63645530999999 spot_balance_usd=75.72316907999999 spot_available_usd=3.59036335 perp_balance_usd=22.91328623 perp_available_usd=10.54285468 positions=4
+2025-12-31T02:19:40.417897Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.6484942 spot_balance_usd=75.73058166 spot_available_usd=3.59036335 perp_balance_usd=22.91791254 perp_available_usd=10.54926093 positions=4
+2025-12-31T02:19:52.558234Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.65876947 spot_balance_usd=75.70093134 spot_available_usd=3.59036335 perp_balance_usd=22.95783813 perp_available_usd=10.59524826 positions=4
+2025-12-31T02:20:06.182112Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.57067019 spot_balance_usd=75.60300895 spot_available_usd=3.59036335 perp_balance_usd=22.96766124 perp_available_usd=10.60607663 positions=4
+2025-12-31T02:20:17.976447Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.57496293999999 spot_balance_usd=75.59560246 spot_available_usd=3.59036335 perp_balance_usd=22.97936048 perp_available_usd=10.62215675 positions=4
+2025-12-31T02:20:31.501013Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.57409836999999 spot_balance_usd=75.58818987999999 spot_available_usd=3.59036335 perp_balance_usd=22.98590849 perp_available_usd=10.62667978 positions=4
+2025-12-31T02:20:44.208602Z  INFO datalayer::state: state received account snapshot account_id="binance-rest" equity_usd=98.69884427999999 spot_balance_usd=75.69351875999999 spot_available_usd=3.59036335 perp_balance_usd=23.00532552 perp_available_usd=10.64753991 positions=4

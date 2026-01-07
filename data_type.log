@@ -1,0 +1,22 @@
+token:
+RUSTFLAGS="--cfg tokio_unstable" TOKIO_CONSOLE=1 TOKIO_CONSOLE_BIND=127.0.0.1:6669 cargo run -p app
+
+funding_rate:
+
+
+price:
+
+
+
+
+orderbook_snapshot:
+
+
+orderbook_delta:
+
+
+order:
+
+
+account:
+

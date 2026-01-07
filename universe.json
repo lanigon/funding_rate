@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "SOLUSDT",
+    "funding_score": 0.00006105142857142857,
+    "liquidity_score": 13210.697999999999,
+    "avg_close": 121.98700000000001,
+    "as_of_ms": 1766655967176
+  },
+  {
+    "symbol": "BTCUSDT",
+    "funding_score": 0.00006585571428571427,
+    "liquidity_score": 7.3587000000000025,
+    "avg_close": 87503.50419999998,
+    "as_of_ms": 1766655967176
+  },
+  {
+    "symbol": "BNBUSDT",
+    "funding_score": 0.000014513333333333332,
+    "liquidity_score": 141.85100000000006,
+    "avg_close": 840.7058000000001,
+    "as_of_ms": 1766655967176
+  }
+]

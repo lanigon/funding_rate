@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "arb-metrics"
+    static_configs:
+      - targets: ["host.docker.internal:8000"]
+    # On Linux without host.docker.internal, replace with 172.17.0.1 or
+    # expose the Rust app via another container network.
